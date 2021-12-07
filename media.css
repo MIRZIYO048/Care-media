@@ -1,0 +1,54 @@
+@media (max-width: 992px) {
+    .patient-info{
+        display: flex;
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+}
+@media (max-width: 728px) {
+    .patient-info{
+        height: 150vh;
+    }
+    .info-2{
+        position: absolute;
+        top: 80vh;
+        text-align: center;
+        right: 110px;
+        width: 500px;
+        height: 300px;
+    }
+    .info-1{
+        position: absolute;
+        top: 8vh;
+        right: 200px;
+        width: 320px;
+        height: 300px;
+    }
+}
+@media (max-width: 576px){
+    .patient-info{
+        background: orange;
+    }
+    .info-2{
+        background: none;
+        position: absolute;
+        top: 85vh;
+        text-align: center;
+        right: 100px;
+        width: 370px;
+        height: 300px;
+    }
+    .info-1{
+        background: none;
+        position: absolute;
+        top: 17vh;
+        right: 180px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .cabin{
+        position: absolute;
+        right: 205px;
+    }
+}
